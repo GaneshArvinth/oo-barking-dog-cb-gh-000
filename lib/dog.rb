@@ -6,7 +6,7 @@ class Dog
   end
 
   def bark
-    puts "#{@bark}"
+    puts "woof!"
   end
 
   def name=(name)
@@ -20,5 +20,4 @@ class Dog
 end
 
 fido = Dog.new
-fido.bark = "woof!"
 fido.bark
